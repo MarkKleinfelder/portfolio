@@ -8,8 +8,17 @@
     background-color: #fffff9;
 }
 .contactIcons {
-    font-size: 50px;
-    
+    font-size: 50px;  
+}
+
+.socialIcons{
+    font-size:40px;
+    margin:15px 45px;
+    color:rgb(74, 200, 243);
+}
+
+.socialIcons:hover{
+    color:rgb(3, 232, 155)
 }
 
 .contactIconsDiv{
@@ -140,14 +149,15 @@ HEADER
     background-repeat: no-repeat;
     min-height: 300px;
     position: relative;
+
 }
-.bg-color
-{
+.bg-color {
     background-color: rgba(0, 0, 0, 0.4);
-    min-height: 650px;
+    min-height:705px;
+
 }
-#main-header
-{
+#main-header{
+
 }
 .navbar-default {
     background-color: transparent;
@@ -166,11 +176,22 @@ HEADER
     background: rgba(72,91,126, 0.9);
 }
 
+.logoImg{
+    /*box-shadow: 3px 3px 3px black;*/
+    /*border-radius: 25px;*/
+}
+
+.logoImg:hover{
+    filter:hue-rotate(350deg);
+}
+
 .logo-dec
 {
-    color: rgb(3, 232, 255);
+    
+    color:rgb(74, 200, 243);
 }
 .navbar-default .navbar-brand {
+
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -180,11 +201,11 @@ HEADER
     color: #fff;
 }
 .navbar-brand {
+    margin-bottom: 15px;
     padding: 0px;
     font-size: 24px;
     text-transform: uppercase;
-    padding: 15px 0px;
-    margin-top: 6px;
+    padding: 10px 0px;
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -199,7 +220,7 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: rgb(3, 232, 255);
+    color: rgb(74, 200, 243);
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -301,7 +322,7 @@ features
     border-top: 0px;
     height: 3px;
     width: 40px;
-    background-color: rgb(3, 232, 255);
+    background-color: rgb(74, 200, 243);
 }
 .wrap-item h3 {
     font-size: 24px;
@@ -434,14 +455,16 @@ ul.service-list li i
 .portfolio-item figure h2 {
     font-family: 'Fira Sans', sans-serif;
     color:#fff;
-    font-size:20px;
+    font-size:16px;
     text-align:left;
-    padding-bottom:10px;
-    margin-top:-6%;
+    padding-bottom:8px;
+    margin-top:-10%;
+    margin-bottom:4px;
 }
 .portfolio-item figure p {
     display:block;
     line-height:18px;
+    font-size:12px;
     margin:0;
     color:#fff;
     text-align:left
@@ -676,7 +699,7 @@ contact
 }
 .loction-info p i
 {
-    color: rgb(3, 232, 255);
+    color: rgb(74, 200, 243);
 }
 /***********************************
 ************************************
@@ -704,7 +727,7 @@ contact
 }
 .white-bg
 {
-    background-color: #fff;
+    background-color: rgb(74, 200, 243)
 }
 #footer a{
     color: #be9e21;
